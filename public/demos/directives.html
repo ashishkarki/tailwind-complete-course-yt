@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DIRECTIVES demo of tailwind</title>
+
+        <link rel="stylesheet" href="../output.css">
+    </head>
+
+    <body>
+        <h2 class="p-3 mx-2 my-2 font-bold border-2 bg-amber-100">
+            <a href=" ../index.html" class="underline hover:text-red-400">Back to Index</a>
+        </h2>
+
+        <div class="nice-div">
+            when you use a @tailwind/base directive, it will reset a lot of the default styles found in normal html
+            tags.
+            <br>
+
+            As an experiment comment out the link above containing '../output.css' and the headings below will have
+            their normal html behavior.
+            <br>
+
+            For example all headings will have same size:
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <br>
+        </div>
+
+        <div class="nice-div">
+            <a href="../index.html">back to index a tag</a>
+        </div>
+    </body>
+
+</html>
