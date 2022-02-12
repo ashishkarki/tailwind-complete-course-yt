@@ -20,8 +20,8 @@
     },
     "peacock.color": "#215732",
     "files.autoSave": "afterDelay",
-    "editor.quickSuggestions": {
-        "strings": true
-    },
+    // "editor.quickSuggestions": {
+    //     "strings": true
+    // },
     "css.validate": false
 }

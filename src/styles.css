@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply px-4 py-2 font-semibold;
+}
+
+.btn-green {
+    @apply text-white bg-green-500 rounded-lg shadow-md;
+}
+
+.btn-blue {
+    @apply text-white bg-blue-500 rounded-lg shadow-md;
+}
+
+.btn-hovered {
+    @apply hover:text-red-300;
+}
