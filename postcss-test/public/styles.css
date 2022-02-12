@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing : border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.one {
+    color           : red;
+    background-color: beige;
+}
+.two {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap                  : 1em;
+    gap                  : 1em;
+
+}
+.nested {
+    background-color: aqua
+}
+.nested .child {
+        font-size: 2rem;
+    }

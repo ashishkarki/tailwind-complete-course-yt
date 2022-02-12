@@ -1,0 +1,19 @@
+.one {
+    color           : red;
+    background-color: beige;
+}
+
+.two {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 1em;
+
+}
+
+.nested {
+    background-color: aqua;
+
+    & .child {
+        font-size: 2rem;
+    }
+}

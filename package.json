@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-complete-course-yt",
+  "version": "1.0.0",
+  "description": "build tailwinc library knowledge",
+  "author": "ashish karki",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx http-server -p 8080",
+    "build": "tailwindcss -i src/styles.css -o public/output.css -w"
+  },
+  "keywords": [
+    "ui",
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-cli"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.21"
+  }
+}
