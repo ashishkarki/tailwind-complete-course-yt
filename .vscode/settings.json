@@ -20,4 +20,7 @@
     },
     "peacock.color": "#215732",
     "css.validate": false,
+    "conventionalCommits.scopes": [
+        "tailwind-features"
+    ],
 }

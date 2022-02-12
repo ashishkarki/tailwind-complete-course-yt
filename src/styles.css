@@ -28,6 +28,10 @@
     }
 }
 
+.new-plugin-btn {
+    @apply scale-1;
+}
+
 .btn {
     @apply px-4 py-2 font-semibold;
 }
@@ -45,5 +49,5 @@
 }
 
 .nice-div {
-    @apply md:mx-auto p-2 my-3 border-2 border-red-300 border-solid;
+    @apply md:mx-auto p-2 my-3 border-2 border-red-300 border-solid lg:container;
 }
